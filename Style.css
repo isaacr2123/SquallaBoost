@@ -1,0 +1,161 @@
+/*Global*/
+html {
+  background-color: #f3f3f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #707070;
+}
+body {
+   width: 100%;
+   zoom: 90%
+ }
+ * {
+   margin: 0;
+   border: 0;
+   padding: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   overflow: hidden
+ }
+
+h1 {
+  font-size: 110px;
+ }
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 39px;
+} 
+
+/*Navbar*/
+.hero {
+  height: 60px;
+  width: 100%;
+  background-color: #B80000;
+  font-size: 31px;
+}
+
+a {
+  color: white;
+  padding-right: 75px;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  text-align: right;
+}
+
+nav .logo {
+  text-decoration: none;
+  float: left;
+  padding-left: 70px;
+ 
+}
+.mobileNav {
+display: none
+}
+
+/*Main*/
+
+/*Hero*/
+.SBmain h1{
+  margin-left: 150px;
+}
+
+.SBmain img {
+  margin-left: 150px;
+}
+.SBmain p {
+  width: 687px;
+  height: 143px;
+  margin-left: 150px;
+  font-size: 50px;
+  text-align: center;
+}
+
+/*BattlEye*/
+
+.BEimg{
+  position: absolute;
+  margin-left: 1293px;
+  top: -168px;
+  z-index: -1;
+}
+.BattlEye p {
+  position: absolute;
+  width: 248px;
+  height: 156px;
+  margin-left: 1103px;
+  top: 320px;
+  text-align: center
+}
+.BEline {
+  position: absolute;
+  margin-left: 1095px;
+  top: 429px;
+}
+
+/*ESP*/
+.InGame {
+  position: absolute;
+  top: 440px
+}
+
+.ESP p{
+  width: 383px;
+  height: 100px;
+  text-align: center;
+  margin-left: 282px;
+  overflow: hidden;
+  position: absolute;
+  
+}
+
+.ESPline {
+  position: absolute;
+  top: 565px;
+  margin-left: 297px;
+/*Admin*/
+}
+.AdminPng {
+  position: absolute;
+  margin-left: 1408px;
+  top: 775px;
+}
+
+.Admins h2 {
+  position: absolute;
+  margin-left: 1700px;
+  top: 730px
+}
+/*Plat*/
+.plat p {
+  width: 383px;
+  height: 100px;
+  text-align: center;
+  margin-left:867px;
+  position: absolute;
+  top: 650px
+}
+
+.platLine{
+  position: absolute;
+  margin-left: 882px;
+  top: 760px;
+}
+
+.platIMG {
+  position: absolute;
+  margin-left: 967px;
+  top: 775px
+}
+/*footer*/
+footer {
+  color: black;
+  position: fixed;
+  top: 1020px;
+  left: 868.614px;
+  text-align: center
+    }
